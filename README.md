@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadella Purushotham Naidu - Finance Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
         }
         h1, h2, h3 {
-            color: #2c3e50;
+            color: #f1c40f;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
         }
         ul {
-            padding-left: 20px;
+            list-style: none;
+            padding: 0;
         }
-        .contact {
-            background: #2c3e50;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
+        li {
+            padding: 5px 0;
         }
         .contact a {
-            color: #f39c12;
+            color: #f1c40f;
             text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -93,7 +96,7 @@
             <p>🚀 I aim to <strong>start my own business</strong>, leveraging my financial expertise to build a <strong>sustainable and profitable model</strong>. My goal is to create a business that generates revenue while adding value to people's lives through strategic financial management.</p>
         </div>
         
-        <div class="contact">
+        <div class="section contact">
             <h3>📌 Contact Information</h3>
             <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
             <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
